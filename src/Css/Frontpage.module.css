@@ -1,0 +1,42 @@
+#title h1{
+    background-color: rgb(101, 146, 230);
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+#title  h2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    
+  z-index: 1;
+}
+#section{
+    margin-top: 100px;
+}
+#section a{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
+    z-index: 2;
+    text-decoration: none;
+}
+#section img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 70px;
+    z-index: 0;
+}
+#section button{
+width: 200px;
+padding: 10px;
+cursor: pointer;
+outline: none;
+border: none;background-image: url('../Components/images/image1.jpeg');
+color: white;
+z-index: 2;
+}
